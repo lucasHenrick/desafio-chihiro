@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body {
+    background-image: linear-gradient( to right, #1A4855 , #628E75);
+    color: #F9F9F9;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social {
+    position: relative;
+    float: right;
+}
+
+.social span {
+   margin: 25px;
+   margin-top: 52px;
+}
+
+.container {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.description{
+    width: 445px;
+    height: 87px;
+    font: 43px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons {
+    background-color: #658E76;
+    width: 225px;
+    height: 45px;
+    color: #F9F9F9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border: 2px solid #658E76;
+    text-transform: uppercase;
+
+}
+
+.buttons img {
+    margin-right: 15px;
+}
+
+.buttons-trailer{
+    background-color: rgba(0, 0, 0, 0.0);
+    width: 225px;
+    height: 45px;
+    color: #F9F9F9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border: 2px solid #658E76;
+    text-transform: uppercase;
+}
+button{
+    margin-right: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9F9F9;
+}
+@media (max-width: 976px) {
+    .body {
+        background-image: linear-gradient( #628E75, #1A4855);
+    }
+    .social span{
+        margin: 15px;
+    }
+    .container {
+        margin-top: 1%;
+        display: flex;
+        justify-content: none;
+        flex-direction: column-reverse;
+    }
+    
+    .titulo{
+        font-size: 55px;
+    }
+
+    .description{
+        width: 230px;
+        height: 160px;
+        font-size: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .buttons-trailer{
+        display: none;
+    }
+    .art {
+        text-align: center;
+    }
+    .art img {
+        width: 300px;
+        height: 288.91px;
+    }
+
+
+}
+
+
